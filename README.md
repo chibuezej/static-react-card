@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+This is a project that was given by Bob Ziroll(https://www.figma.com/file/4ctPLUvIn5b5Ep6YPOZWWd/Digital-Business-Card?node-id=0%3A129&t=Ra1FjiI3yKtrT7yX-0)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

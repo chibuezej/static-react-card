@@ -1,38 +1,136 @@
-.App {
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.Container{
   text-align: center;
+  width: 550px;
+  height: 873px;
+  background-color: #23252C;
+  margin-left: 600px;
+  margin-top: 53px;
+  margin-bottom: 15px;
+  padding: 44px 116px;
+  
+ 
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.section{
+  width: 528px;
+    height: 840px;
+    margin: 0px 20px;
+   
+    background-color: #161619;
+ 
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.info-section{
+  font-size: 12px;
+  color: #DCDCDC;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.image{
+  width: 317px;
+  height: 317px;
+  left: 116px;
+  margin-top: 45px;
+  border-radius: 10px 10px 0px 0px;
 }
+h1{
+  font-family: 'Inter';
+   font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px;
+text-align: center;
+color: #FFFFFF;
 
-.App-link {
-  color: #61dafb;
 }
+h2{
+width: 355px;
+height: 21px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 150%;
+color: #F5F5F5;
+margin: 8px 10px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+h3{
+
+width: 179px;
+margin-left: 186px;
+margin-top: 10px;
+font-family: 'Inter';
+font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+text-align: center;
+color: #F3BF99;
+
+}
+h4{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 150%;
+margin-top: 14px;
+text-align: center;
+color: #F5F5F5;
+}
+button{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 9px 13px 9px 11px;
+gap: 8px;
+width: 247px;
+height: 34px;
+margin-left: 151px;
+margin-top: 8px;
+background: #FFFFFF;
+border: 1px solid #D1D5DB;
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+border-radius: 6px;
+}
+.About-section{
+  font-size: medium;
+  color: #DCDCDC;
+  margin-top: 50px;
+}
+p{
+  font-family: 'Inter';
+width: 247px;
+height: 61px;
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 150%;
+margin-left: 145px;
+margin-top: -5px;
+margin-bottom: 25px;
+}
+.interest-section{
+  color: #DCDCDC;
+}
+footer{
+width: 317px;
+height: 64px;
+margin-top: 38px;
+margin-left: 116px;
+background: #161619;
+border-radius: 0px 0px 10px 10px;
+}
+ul {
+ display: flex;
+ flex-direction: row;
+ list-style: none; 
+
+  
+}
+li{
+  margin: 10px 20px;
+  color: #918E9B;
+  
 }
